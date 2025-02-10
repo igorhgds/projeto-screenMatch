@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.modelos;
 
-public class Serie extends Titulo{
+public class Serie extends Titulo {
     private int temporadas;
     private boolean ativa;
     private int episodiosPorTemporada;
@@ -49,6 +49,6 @@ public class Serie extends Titulo{
 
     @Override
     public String toString() {
-        return "Serie: " + this.getNome() + " (" + this.getAnoDeLancamento() + ")";
+        return "Série: " + this.getNome() + "(" + this.getAnoDeLancamento() + ")";
     }
 }
